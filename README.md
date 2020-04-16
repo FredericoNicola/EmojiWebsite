@@ -3,6 +3,7 @@
 Trabalho Engenharia Software
 
 Requisitos Funcionais:
+
 1º O utilizador introduzir uma palavra na text box.
 2º Ao clicar no botão "Traduzir" este ira traduzir as palavras em emojis.
 3º Button para escolher a linguagem que pretende
