@@ -1,2 +1,7 @@
 # EmojiWebsite
-Trabalho Engenharia Software 
+
+Trabalho Engenharia Software
+
+Requisitos Funcionais:
+
+Requisitos não Funcionais:
