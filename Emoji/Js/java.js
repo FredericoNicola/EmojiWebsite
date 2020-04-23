@@ -1,9 +1,10 @@
 
 //função do botao traduzir
 function traduzir(){
-    var texto = document.getElementById("textoint").value;
+    var texto1 = document.getElementById("textoint").value;
+    var texto = texto1.toLocaleLowerCase();
     
-    //warning 
+    //warning message
     if(texto == ""){
         alert("Introduza pelo menos uma palavra")
     }
