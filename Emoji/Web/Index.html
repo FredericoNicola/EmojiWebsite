@@ -7,6 +7,7 @@
     <meta name="viewport" content="with=device-width, inicial-scale=1">
     <title>Emoji Translator</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../Js/java.js"></script>
 
 </head>
 
@@ -25,19 +26,22 @@
 
         <label for="textoint">Introduza o texto:</label>
         <br>
-        <input type="text" id="textoint" name="textoint" value="Escreva aqui" size="50">
+        <input type="text" id="textoint" onfocus="this.value=''" value="Escreva aqui" size="50">
         <br><br>  
         <div class="botoes">
             <input type="button" value="Lingua"> 
-            <input type="submit" value="Traduzir"> 
-            <input type="submit" value="Apagar">    
+            <button onclick="traduzir()">Traduzir</button> 
+            <button onclick="apagar()">Apagar</button>  
         </div>
 
         <br>
         <br>
-        <label for="textoint">Texto Traduzido:</label>
+        <p>Texto Traduzido:</p>
         <br>
-        <output name="traduzido" for="textoint"></output>
+        <output name="traduzido" id="feito"></output> 
+        
+
+
     </div>
 
    
