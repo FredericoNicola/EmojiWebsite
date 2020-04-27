@@ -1,47 +1,61 @@
 /* navbar */
-
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(24, 36, 36);
+}
 .logo {
   width: 10px;
   height: 10px;
 }
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-}
-
-li {
-  float: left;
-  border-right: 1px solid #bbbbbb;
-}
-
-li:last-child {
-  border-right: none;
-}
-
-li a {
-  display: block;
+h1 {
   color: white;
+}
+label {
+  color: white;
+}
+p {
+  color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: gray;
+}
+.navbar .right {
+  float: left;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
+}
+.navbar .left {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-li a:hover:not(.activar) {
-  background-color: #111111;
+.navbar .right:hover {
+  background-color: #ddd;
+  color: black;
+  transition: 0.4s ease-in-out;
 }
 
-.activar {
-  background-color: #dba901;
+.navbar .left:hover {
+  background-color: #ddd;
+  color: black;
+  transition: 0.4s ease-in-out;
 }
-
-/*Fim NavBar */
-
-/* Texto */
 
 .titulo {
   text-align: center;
@@ -69,15 +83,13 @@ li a:hover:not(.activar) {
   transition: ease-in-out;
 }
 
-
 .button:hover {
   background-color: black;
   transition: 0.4s ease-in-out;
-  
 }
 
 .input-text {
-  width: 70%;
+  width: 72%;
   padding: 12px 20px;
   margin: 5px;
   box-sizing: border-box;
@@ -86,44 +98,18 @@ li a:hover:not(.activar) {
   transition: border 0.3s ease-in-out;
 }
 .input-text:hover {
-  border: 2px solid cyan ;
+  border: 2px solid cyan;
 }
-.input-text:focus:hover{
-  border: 2px solid cyan ;
+.input-text:focus:hover {
+  border: 2px solid cyan;
 }
-.output-traduzido {
+.output-div {
   width: 70%;
+  height: 20px;
   padding: 12px 20px;
-  margin: 5px;
-  box-sizing: border-box;
   border: 2px solid gray;
-  border-radius: 3px;
-  
-/* 
-.form input{
-    
-    color: #595f6e;
-    padding-top: 20px;
-    border: none;
-    border-bottom: 1px solid black;
-} */
-
-/* .form label {
-    position: absolute;
-    bottom: 0px;
-    left: 0%;
-    width: 100%;
-    text-align: center;
-    height: 100%;
-    pointer-events: none;
-    
-     
-} 
-
-.botoes{
-    position: relative;
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
-    
-} */
+  transition: border 0.3s ease-in-out;
+}
+.output-div:hover {
+  border: 2px solid cyan;
+}
