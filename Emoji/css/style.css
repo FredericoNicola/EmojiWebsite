@@ -1,59 +1,104 @@
-
 /* navbar */
-ul{
-    list-style-type: none ;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
 
+.logo {
+  width: 10px;
+  height: 10px;
 }
 
-li{
-    float: left;
-    border-right: 1px solid #bbbbbb;
-    
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
 }
 
-li:last-child{
-    border-right: none;
+li {
+  float: left;
+  border-right: 1px solid #bbbbbb;
 }
 
-li a{
-    display: block;
-    color:white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-
+li:last-child {
+  border-right: none;
 }
 
-li a:hover:not(.activar){
-    background-color: #111111;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.activar{
-    background-color: #DBA901;
+li a:hover:not(.activar) {
+  background-color: #111111;
+}
+
+.activar {
+  background-color: #dba901;
 }
 
 /*Fim NavBar */
 
 /* Texto */
 
-.titulo{
-    text-align: center;
+.titulo {
+  text-align: center;
+}
+
+.form {
+  position: relative;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: yellowgreen; */
+}
+.button {
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: darkgray;
+  transition: ease-in-out;
 }
 
 
-.form{
-
-    position: relative;
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    /* background-color: yellowgreen; */
+.button:hover {
+  background-color: black;
+  transition: 0.4s ease-in-out;
+  
 }
+
+.input-text {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 5px;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 3px;
+  transition: border 0.3s ease-in-out;
+}
+.input-text:hover {
+  border: 2px solid cyan ;
+}
+.input-text:focus:hover{
+  border: 2px solid cyan ;
+}
+.output-traduzido {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 5px;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 3px;
+  
 /* 
 .form input{
     
@@ -82,4 +127,3 @@ li a:hover:not(.activar){
     align-items: center;
     
 } */
-
