@@ -23,6 +23,10 @@ p {
   overflow: hidden;
   background-color: gray;
 }
+#logo{
+  color: yellow;
+  font-size: 17px;
+}
 .navbar .right {
   float: left;
   display: block;
@@ -197,7 +201,7 @@ p {
 }
 
 #errorbox-2 i {
-  color: red;
+  color: green;
   font-size: 40px;
   display: block;
   margin: 20px 0;
@@ -248,4 +252,16 @@ p {
   background: #3498db;
   display: inline-block;
   border-radius: 4px;
+}
+.close:hover {
+  background: rgb(52, 191, 219);
+  transition: 0.3s ease-in-out;
+}
+.close1:hover {
+  background: rgb(52, 191, 219);
+  transition: 0.3s ease-in-out;
+}
+.close2:hover {
+  background: rgb(52, 191, 219);
+  transition: 0.3s ease-in-out;
 }
