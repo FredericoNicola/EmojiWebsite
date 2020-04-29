@@ -8,15 +8,19 @@
     <title>Emoji Translator</title>
     <link rel="stylesheet" href="../css/style.css" />
     <script src="../Js/java.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
     <!-- NAVBAR-->
-    <div class="navbar">
-          <a class="right" href=""><img class="logo" src="../img/logo.png" alt="" /></a>
+    <div class="navbar" id="mynav">
+          <a class="right" id="logo" href="">EmojiO <i class="fa fa-meh-o" aria-hidden="true"></i></a>
           <a class="right" href="#contacto">Contactos</a></li>
           <a class="right" href="#oque">Emoji Translator o que faz?</a></li>
           <a class="left" href="#sobre">Sobre nos</a></li>
+          <a href="javascript:void(0);" class="icon" onclick="navbar()">
+            <i class="fa fa-bars"></i>
+          </a>
     </div>
     <br/><br/><br/>
 
@@ -26,22 +30,41 @@
     <div class="form">
       <label for="textoint">Introduza o texto:</label>
       <br />
-      
-        <input class="input-text"
+      <input
+        class="input-text"
         type="text"
         id="textoint"
         onfocus="this.value=''"
         value="Introduza a sua frase aqui"
         size="50"
-        />
+      />
       <br /><br />
       <div class="botoes">
         <button class="button button3">
           Lingua
         </button>
-        <button class="button button1" onclick="traduzir()">Traduzir</button>
+        <button class="button button1"  onclick="traduzir()">Traduzir</button>
         <button class="button button2" onclick="apagar()">Apagar</button>
       </div>
+
+      <div id="errorbox">
+        <i class="fa fa-exclamation" aria-hidden="true"></i>
+        <h1>Tem de introduzir texto</h1>
+        <a onclick="fechar()" class="close">Fechar</a>
+      </div>
+
+      <div id="errorbox-2">
+        <i class="fa fa-check" aria-hidden="true"></i>
+        <h1>Está limpo maluco!</h1>
+        <a onclick="fechar()" class="close1">Fechar</a>
+      </div>
+
+      <div id="errorbox-3">
+        <i class="fa fa-exclamation" aria-hidden="true"></i>
+        <h1>Palavra indisponivel</h1>
+        <a onclick="fechar()" class="close2">Fechar</a>
+      </div>
+      
 
       <br />
       <br />
@@ -50,5 +73,26 @@
       <div class="output-div">
         <output class="output-traduzido" name="traduzido" id="feito"></output>
       </div>
+
+
+      <footer class="footer">
+        <hr>
+        <div class="container text-center foot">
+            <div class="row" id="ve">
+                <div class="col-sm-4">
+                    <p>&copy; Copyright</p>
+                    
+                </div>
+
+                <div class="col-sm-4 text-center" id="ve">
+                    <p>Trabalho realizado por: <p>João Azevedo & Frederico Nicola</p></p>
+                </div>
+
+                <div class="col-sm-4 text-center">
+                  <a href="http://www.ismai.pt/pt"><img src="../img/ismai.jpg" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
   </body>
 </html>
