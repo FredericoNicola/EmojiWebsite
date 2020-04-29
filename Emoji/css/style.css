@@ -1,9 +1,6 @@
 /* navbar */
-* {
-  padding: 0;
-  margin: 0;
-}
 body {
+  padding: 0;
   margin: 0;
   font-family: sans-serif;
   background-color: rgb(24, 36, 36);
@@ -112,4 +109,40 @@ p {
 }
 .output-div:hover {
   border: 2px solid cyan;
+}
+#errorbox {
+  width: 500px;
+  overflow: hidden;
+  background: #f1f1f1;
+  box-shadow: 0 0 20px black;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  position;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  padding: 10px;
+  text-align: center;
+  display: none;
+}
+
+#errorbox h1 {
+  color: black;
+}
+
+#errorbox i {
+  color: red;
+  font-size: 40px;
+  display: block;
+  margin: 20px 0;
+}
+.close {
+  font-size: 18px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #3498db;
+  display: inline-block;
+  border-radius: 4px;
 }

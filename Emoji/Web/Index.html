@@ -8,6 +8,7 @@
     <title>Emoji Translator</title>
     <link rel="stylesheet" href="../css/style.css" />
     <script src="../Js/java.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -42,6 +43,13 @@
         <button class="button button1" onclick="traduzir()">Traduzir</button>
         <button class="button button2" onclick="apagar()">Apagar</button>
       </div>
+
+      <div id="errorbox">
+        <i class="fa fa-exclamation" aria-hidden="true"></i>
+        <h1>Tem de introduzir texto</h1>
+        <a onclick="fechar()" class="close">Fechar</a>
+      </div>
+      
 
       <br />
       <br />
