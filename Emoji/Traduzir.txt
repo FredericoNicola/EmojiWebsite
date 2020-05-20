@@ -1,0 +1,10 @@
+1º ir buscar a frase ao utilizador.(feito)
+2º por a frase em lower case.(feito)
+
+3ºpassar essa informação para um array.(FEITO)
+
+4º criar a função traduzir.(feito)
+
+5ºDepois de criada tenho criar um ciclo onde a cada posição do array ira
+conter uma palavra e e depois comprar com os valores que temos.(quase)
+
