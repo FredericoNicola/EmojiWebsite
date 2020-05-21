@@ -1,5 +1,14 @@
 # EmojiWebsite
 
+Para começar a usar o nosso site precisa de:
+- Fazer Download do zip
+- Fazer o extract do zip
+- Abrir a pasta web
+- Abrir o ficheiro index.html
+- Se seguir os passos atrás ja deve estar a navegar na nossa pagina.
+
+
+
 Trabalho Engenharia Software
 
 Requisitos Funcionais:
