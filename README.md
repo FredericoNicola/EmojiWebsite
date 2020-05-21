@@ -7,7 +7,14 @@ Para começar a usar o nosso site precisa de:
 - Abrir o ficheiro index.html
 - Se seguir os passos atrás ja deve estar a navegar na nossa pagina.
 
-
+Sobre o codigo:
+- index.html é a home page
+- sobrenos.html to do
+- 
+Sobre as pastas:
+- web pasta onde se encontram todos os ficheiros html da nossa pagina
+- js onde se encontram todos os ficheiros de javaScript
+- css onde se encontram todos os ficheiros de stylesheet
 
 Trabalho Engenharia Software
 
