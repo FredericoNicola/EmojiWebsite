@@ -10,7 +10,7 @@ Para começar a usar o nosso site precisa de:
 Sobre o codigo:
 - index.html é a home page
 - sobrenos.html to do
-- 
+- home.html to do
 Sobre as pastas:
 - web pasta onde se encontram todos os ficheiros html da nossa pagina
 - js onde se encontram todos os ficheiros de javaScript
