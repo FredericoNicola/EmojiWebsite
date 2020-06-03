@@ -128,12 +128,14 @@ p {
 .input-text {
   width: 72%;
   height: 50px;
+  color: white;
   padding: 12px 20px;
   margin: 5px;
   box-sizing: border-box;
   border: 2px solid gray;
   border-radius: 3px;
   transition: border 0.3s ease-in-out;
+  background-color: rgb(24, 36, 36);
 }
 .input-text:hover {
   border: 2px solid cyan;
@@ -141,15 +143,22 @@ p {
 .input-text:focus:hover {
   border: 2px solid cyan;
 }
-.output-div {
-  width: 70%;
+.output-text {
+  width: 72%;
   height: 50px;
   padding: 12px 20px;
+  margin: 5px;
+  box-sizing: border-box;
   border: 2px solid gray;
-  transition: border 0.3s ease-in-out;
+  border-radius: 3px;
   color: white;
+  transition: border 0.3s ease-in-out;
+  background-color: rgb(24, 36, 36);
 }
-.output-div:hover {
+.output-text:hover {
+  border: 2px solid cyan;
+}
+.output-text:focus:hover {
   border: 2px solid cyan;
 }
 #errorbox {
