@@ -127,6 +127,7 @@ p {
 
 .input-text {
   width: 72%;
+  height: 50px;
   padding: 12px 20px;
   margin: 5px;
   box-sizing: border-box;
@@ -142,10 +143,11 @@ p {
 }
 .output-div {
   width: 70%;
-  height: 20px;
+  height: 50px;
   padding: 12px 20px;
   border: 2px solid gray;
   transition: border 0.3s ease-in-out;
+  color: white;
 }
 .output-div:hover {
   border: 2px solid cyan;
