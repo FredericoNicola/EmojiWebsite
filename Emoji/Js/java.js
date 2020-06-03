@@ -249,6 +249,10 @@ function traduzir(){
       // alert(textolista[i]);
       document.getElementById("feito").innerHTML += "🥺"+" ";
     }
+    else if(textolista[i] == "mentiroso"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🤥"+" ";
+    }
     else if(textolista[i] == "implorar"){
       // alert(textolista[i]);
       document.getElementById("feito").innerHTML += "🤫"+" ";
