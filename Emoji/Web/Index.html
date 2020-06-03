@@ -14,72 +14,68 @@
   <body>
     <!-- NAVBAR-->
     <div class="navbar" id="mynav">
-          <a class="right" id="logo" href="">EmojiO <i class="fa fa-meh-o" aria-hidden="true"></i></a>
-          <a class="right" href="#oque">Emoji Translator</a></li>
+          <a class="right" id="logo" href="../Web/index.html">EmojiO <i class="fa fa-meh-o" aria-hidden="true"></i></a>
+          <a class="right" href="../Web/traduzir.html">Emoji Translator</a></li>
           <a class="right" href="#oque">Sobre Nós</a></li>
           <a href="javascript:void(0);" class="icon" onclick="navbar()">
             <i class="fa fa-bars" aria-hidden="true"></i>
           </a>
     </div>
-    <div class="page-content">
-    <br/><br/><br/>
+<br><br> </br></br>
 
-    <h1 class="titulo">Emoji Translator</h1>
-    <br /><br />
-    <!--Caixa de texto-->
-    <div class="form">
-      <label for="textoint">Introduza o texto:</label>
-      <br />
-      <textarea id= "textoint" class="input-text" name="textarea"></textarea>
-      <br /><br />
-      <div class="botoes">
-        <button class="button button3">
-          Lingua
-        </button>
-        <button class="button button1"  onclick="traduzir()">Traduzir</button>
-        <button class="button button2" onclick="apagar()">Apagar</button>
-      </div>
+    <h2>Bem vindo ao emoji translator</h2>
+    <h3>O sonho das paginas de tradução de emojis</h3>
+    <br><br></br></br>
+    <div class="slideshow-container">
 
-      <div id="errorbox">
-        <i class="fa fa-exclamation" aria-hidden="true"></i>
-        <h1>Tem de introduzir texto</h1>
-        <a onclick="fechar()" class="close">Fechar</a>
-      </div>
-
-      <div id="errorbox-2">
-        <i class="fa fa-check" aria-hidden="true"></i>
-        <h1>Está limpo maluco!</h1>
-        <a onclick="fechar()" class="close1">Fechar</a>
-      </div>
-
-      <div id="errorbox-3">
-        <i class="fa fa-exclamation" aria-hidden="true"></i>
-        <h1>Palavra indisponivel</h1>
-        <a onclick="fechar()" class="close2">Fechar</a>
-      </div>
-      
-
-      <br />
-      <br />
-      <p>Texto Traduzido:</p>
-      <br />
-        <textarea class="output-text" disabled="disabled"  id= "feito" name="traduzido"></textarea>
-    </div>
-
-      <footer>
-        <div class="footer-container">
-          <div class="left-col">
-            <img src="../img/ismai.jpg" alt="" class="ismai">
-            <p class="rights-text">© 2020 Criado para a cadeira de engenharia de software</p>
-          </div>
-  
-          <div class="right-col">
-            <p>Trabalho realizado por:  <p>João Azevedo & Frederico Nicola</p></p>
-          </div>
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="../img/1.jpg" style="width:100%">
         </div>
-      </footer>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="../img/2.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="../img/3.jpg" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
 
 
-
-  </body>
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+		
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+		
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+		
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			  dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+        </script>
+    </body>
 </html>

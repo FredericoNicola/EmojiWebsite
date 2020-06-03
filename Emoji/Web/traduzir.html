@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="pt-pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="with=device-width, inicial-scale=1" />
+    <title>Emoji Translator</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../Js/java.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR-->
+    <div class="navbar" id="mynav">
+          <a class="right" id="logo" href="../Web/index.html">EmojiO <i class="fa fa-meh-o" aria-hidden="true"></i></a>
+          <a class="right" href="../Web/traduzir.html">Emoji Translator</a></li>
+          <a class="right" href="#oque">Sobre Nós</a></li>
+          <a href="javascript:void(0);" class="icon" onclick="navbar()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </a>
+    </div>
+    <div class="page-content">
+    <br/><br/><br/>
+
+    <h1 class="titulo">Emoji Translator</h1>
+    <br /><br />
+    <!--Caixa de texto-->
+    <div class="form">
+      <label for="textoint">Introduza o texto:</label>
+      <br />
+      <textarea id= "textoint" class="input-text" name="textarea"></textarea>
+      <br /><br />
+      <div class="botoes">
+        <button class="button button3">
+          Lingua
+        </button>
+        <button class="button button1"  onclick="traduzir()">Traduzir</button>
+        <button class="button button2" onclick="apagar()">Apagar</button>
+      </div>
+
+      <div id="errorbox">
+        <i class="fa fa-exclamation" aria-hidden="true"></i>
+        <h1>Tem de introduzir texto</h1>
+        <a onclick="fechar()" class="close">Fechar</a>
+      </div>
+
+      <div id="errorbox-2">
+        <i class="fa fa-check" aria-hidden="true"></i>
+        <h1>Está limpo maluco!</h1>
+        <a onclick="fechar()" class="close1">Fechar</a>
+      </div>
+
+      <div id="errorbox-3">
+        <i class="fa fa-exclamation" aria-hidden="true"></i>
+        <h1>Palavra indisponivel</h1>
+        <a onclick="fechar()" class="close2">Fechar</a>
+      </div>
+      
+
+      <br />
+      <br />
+      <p>Texto Traduzido:</p>
+      <br />
+        <textarea class="output-text" disabled="disabled"  id= "feito" name="traduzido"></textarea>
+    </div>
+
+      <footer>
+        <div class="footer-container">
+          <div class="left-col">
+            <img src="../img/ismai.jpg" alt="" class="ismai">
+            <p class="rights-text">© 2020 Criado para a cadeira de engenharia de software</p>
+          </div>
+  
+          <div class="right-col">
+            <p>Trabalho realizado por:  <p>João Azevedo & Frederico Nicola</p></p>
+          </div>
+        </div>
+      </footer>
+
+
+
+  </body>
+</html>
