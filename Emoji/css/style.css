@@ -443,17 +443,13 @@ h3 {
 
 .tabelasobre{
   width: 100%;
-padding: 0 10%;
-}
-
-.imagens1{
-  width: 60%; 
-  height: 400px; 
-  
+  padding: 0 5%;
+  margin-left:auto; 
+  margin-right:auto;
 }
 
 .imagens{
-  width: 40%; 
   height: 400px; 
+  width: 400px;
   
 }
