@@ -1,6 +1,4 @@
 //função do botao traduzir
-
-
 function traduzir(){
 
   var texto1 = document.getElementById("textoint").value;
@@ -345,7 +343,7 @@ function traduzir(){
       textolista.splice(i+1,i+1);
     }
     else if(textolista[i]=="cão" ){
-      document.getElementById("feito").innerHTML+=" 🐕 "+" ";
+      document.getElementById("feito").innerHTML+="🐕"+" ";
     }
 
 //Animals & Nature 
@@ -938,6 +936,7 @@ function traduzir(){
   }
 }
 
+
 function fechar() {
   document.getElementById("errorbox").style.display = "none";
   document.getElementById("errorbox-2").style.display = "none";
@@ -947,8 +946,8 @@ function fechar() {
 //funçao do botao apagar
 function apagar() {
   document.getElementById("textoint").value = "";
-  document.getElementById("feito").value = "";
   document.getElementById("errorbox-2").style.display = "block";
+  document.getElementById("feito").innerHTML = '';
 }
 
 function navbar() {
