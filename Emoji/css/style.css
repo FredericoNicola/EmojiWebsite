@@ -434,3 +434,14 @@ h3 {
     font-size: 11px;
   }
 }
+
+.vamos{
+  
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: yellowgreen; */
+  
+}
