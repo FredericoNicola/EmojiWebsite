@@ -348,7 +348,430 @@ function traduzir(){
       document.getElementById("feito").innerHTML+=" 🐕 "+" ";
     }
 
+//Animals & Nature 
+    else if(textolista[i] == "rato"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐭"+" ";
+      
+    }
+    else if(textolista[i] == "hamster"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐹"+" ";
+      
+    }
+    else if(textolista[i] == "coelho"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐰"+" ";
+      
+    }
+    else if(textolista[i] == "raposa"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦊"+" ";
+      
+    }
+    else if(textolista[i] == "texugo"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦝"+" ";
+      
+    }else if(textolista[i] == "urso"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐻"+" ";
+      
+    }
+    else if(textolista[i] == "panda"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐼"+" ";
+      
+    }
+    else if(textolista[i] == "kanguru"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦘"+" ";
+      
+    }
+    else if(textolista[i] == "doninha"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦡"+" ";
+      
+    }
+    else if(textolista[i] == "koala"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐨"+" ";
+      
+    }
+    else if(textolista[i] == "tigre"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐯"+" ";
+      
+    }
+    else if(textolista[i] == "leão"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦁"+" ";
+      
+    }
+    else if(textolista[i] == "touro"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐮"+" ";
+      
+    }
+    else if(textolista[i] == "porco"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐷"+" ";
+      
+    }
+    else if(textolista[i] == "sapo"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐸"+" ";
+      
+    }
 
+    else if(textolista[i]=="macaco"){
+      if(textolista[i+1]=="mãos" && textolista[i+2]=="cara" ){
+        document.getElementById("feito").innerHTML += "🙈"+" ";
+        textolista.splice(i+1,i+2);
+      }
+      else if(textolista[i+1]=="mãos" && textolista[i+2]=="orelhas"){
+        document.getElementById("feito").innerHTML += "🙉"+" ";
+        textolista.splice(i+1,i+2);
+      }
+      else if(textolista[i+1]=="mãos" && textolista[i+2]=="boca"){
+        document.getElementById("feito").innerHTML += "🙊"+" ";
+        textolista.splice(i+1,i+2);
+      }
+      else if(textolista[i+1]=="corpo"){
+        document.getElementById("feito").innerHTML += "🐒"+" ";
+        textolista.splice(i+1);
+      }
+      else{
+        document.getElementById("feito").innerHTML += "🐵"+" ";
+      }
+    }
+    else if(textolista[i] == "galinha"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐔"+" ";
+      
+    }
+    else if(textolista[i] == "pinguim"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐧"+" ";
+      
+    }
+    else if(textolista[i] == "passaro"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐦"+" ";
+      
+    }
+    else if(textolista[i] == "pintainho"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐣"+" ";
+      
+    }
+    else if(textolista[i] == "pato"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦆"+" ";
+      
+    }
+    else if(textolista[i] == "cisne"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦢"+" ";
+      
+    }
+    else if(textolista[i] == "aguia"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦅"+" ";
+      
+    }
+    else if(textolista[i] == "coruja"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦉"+" ";
+      
+    }
+    else if(textolista[i] == "pavão"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦚"+" ";
+      
+    }
+    else if(textolista[i] == "papgaio"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦜"+" ";
+      
+    }
+    else if(textolista[i] == "morcego"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦇"+" ";
+      
+    }
+    else if(textolista[i] == "lobo"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐺"+" ";
+      
+    }
+    else if(textolista[i] == "javali"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐗"+" ";
+      
+    }
+    else if(textolista[i] == "cavalo"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐴"+" ";
+      
+    }
+
+    else if(textolista[i] == "unicornio"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦄"+" ";
+      
+    }
+    else if(textolista[i] == "abelha"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐝"+" ";
+      
+    }
+    else if(textolista[i] == "lagarta"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐛"+" ";
+      
+    }
+    else if(textolista[i] == "dragão"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐉"+" ";
+      
+    }
+    else if(textolista[i] == "borboleta"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦋"+" ";
+      
+    }
+    else if(textolista[i] == "caracol"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐌"+" ";
+      
+    }
+    else if(textolista[i] == "buzio"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐚"+" ";
+      
+    }
+    else if(textolista[i] == "joaninha"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐞"+" ";
+      
+    }
+    else if(textolista[i] == "formiga"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐜"+" ";
+      
+    }
+    else if(textolista[i] == "gafanhoto"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦗"+" ";
+      
+    }else if(textolista[i] == "aranha"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🕷"+" ";
+      
+    }
+    else if(textolista[i] == "teia"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🕸"+" ";
+      
+    }
+    else if(textolista[i] == "escorpião"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦂"+" ";
+      
+    }
+    else if(textolista[i] == "mosquito"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦟"+" ";
+      
+    }
+    else if(textolista[i] == "bacteria"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦠"+" ";
+      
+    }
+    else if(textolista[i] == "tartaruga"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐢"+" ";
+      
+    }
+    else if(textolista[i] == "cobra"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐍"+" ";
+      
+    }
+    else if(textolista[i] == "lagratixa"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦎"+" ";
+      
+    }
+    else if(textolista[i] == "t-rex"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦖"+" ";
+      
+    }
+    else if(textolista[i] == "braquiossauro"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦕"+" ";
+      
+    }
+    else if(textolista[i] == "polvo"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐙"+" ";
+      
+    }
+    else if(textolista[i] == "lula"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦑"+" ";
+      
+    }
+    else if(textolista[i] == "camarão"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦐"+" ";
+      
+    }
+    else if(textolista[i] == "caranguejo"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦀"+" ";
+      
+    }
+    else if(textolista[i] == "peixe"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐠"+" ";
+      
+    }
+    else if(textolista[i] == "golfinho"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐬"+" ";
+      
+    }
+    else if(textolista[i] == "baleia"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐳"+" ";
+      
+    }
+    else if(textolista[i] == "tubarão"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦈"+" ";
+      
+    }
+    else if(textolista[i] == "crocodilo"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐊"+" ";
+      
+    }
+    else if(textolista[i] == "chita"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐆"+" ";
+      
+    }
+    else if(textolista[i] == "zebra"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦓"+" ";
+      
+    }
+    else if(textolista[i] == "gorila"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦍"+" ";
+      
+    }
+    else if(textolista[i] == "elefante"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐘"+" ";
+      
+    }
+    else if(textolista[i] == "rinoceronte"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦏"+" ";
+      
+    }
+    else if(textolista[i] == "hipopotamo"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦛"+" ";
+      
+    }
+    else if(textolista[i] == "camelo"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐫"+" ";
+      
+    }
+    else if(textolista[i] == "lama"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦙"+" ";
+      
+    }
+    else if(textolista[i] == "girafa"){
+      // alert(textolista[i])
+      document.getElementById("feito").innerHTML += "🦒"+" ";
+      
+    }
+    else if(textolista[i] == "bufalo"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐃"+" ";
+      
+    }
+    else if(textolista[i] == "vaca"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐄"+" ";
+      
+    }
+    else if(textolista[i] == "carneiro"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐏"+" ";
+      
+    }
+    else if(textolista[i] == "ovelha"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐑"+" ";
+      
+    }
+    else if(textolista[i] == "bode"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐐"+" ";
+      
+    }
+    else if(textolista[i] == "veado"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦌"+" ";
+      
+    }
+    else if(textolista[i] == "peru"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦃"+" ";
+      
+    }
+    else if(textolista[i] == "pomba"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🕊"+" ";
+      
+    }
+    else if(textolista[i] == "esquilo"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐿"+" ";
+      
+    }
+    else if(textolista[i] == "porco-espinho" ){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🦔"+" ";
+      
+    }
+    else if(textolista[i] == "patas"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐾"+" ";
+      
+    }
+
+    else if(textolista[i] == "dragão"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🐉"+" ";
+      
+    }
+
+    else if(textolista[i] == "chama"){
+      // alert(textolista[i]);
+      document.getElementById("feito").innerHTML += "🔥"+" ";
+      
+    }
 
  //People and Fantasy
     else if(textolista[i] == "homem"){
@@ -378,22 +801,136 @@ function traduzir(){
         document.getElementById("feito").innerHTML += "🙎‍♂️"+" ";
       }
     }
-    //Animals & Nature 
-    else if(textolista[i] == "unicornio"){
+    else if(textolista[i] == "mulher"){
       // alert(textolista[i]);
-      document.getElementById("feito").innerHTML += "🦄"+" ";
-      
+      if(textolista[i+1]=="braço"){
+        if(textolista[i+2]=="levantado"){
+          document.getElementById("feito").innerHTML += "🙋‍♀️"+" ";
+          textolista.splice(i+1,i+2);
+        }
+        else if(textolista[i+2]=="cruzado"){
+          document.getElementById("feito").innerHTML += "🙅‍♀️"+" ";
+          textolista.splice(i+1,i+2);
+        }
+      }
+      else if(textolista[i+1]=="mão"){
+        
+        if(textolista[i+2]=="levantada"){
+          document.getElementById("feito").innerHTML += "🤷‍♀️"+" ";
+          textolista.splice(i+1,i+2);
+        }
+        else if(textolista[i+2]=="cara"){
+          document.getElementById("feito").innerHTML += "🤦‍♀️"+" ";
+          textolista.splice(i+1,i+2);
+        }
+      }
+      else{
+        document.getElementById("feito").innerHTML += "🙎‍♀️"+" ";
+      }
     }
-    else if(textolista[i] == "dragão"){
-      // alert(textolista[i]);
-      document.getElementById("feito").innerHTML += "🐉"+" ";
-      
+    else if(textolista[i]=="polegar" && textolista[i+1]=="cima"){
+      document.getElementById("feito").innerHTML += "👍"+" ";
+        textolista.splice(i+1,i+1);
     }
-    else if(textolista[i] == "chama"){
-      // alert(textolista[i]);
-      document.getElementById("feito").innerHTML += "🔥"+" ";
-      
+    else if(textolista[i]=="polegar" && textolista[i+1]=="baixo"){
+      document.getElementById("feito").innerHTML += "👎"+" ";
+        textolista.splice(i+1,i+1);
     }
+    else if(textolista[i]=="soco" ){
+      document.getElementById("feito").innerHTML += "👊"+" ";
+    }
+    else if(textolista[i]=="punho" && textolista[i+1]=="levantado"){
+      document.getElementById("feito").innerHTML += "✊"+" ";
+      textolista.splice(i+1,i+1);
+    }
+    else if(textolista[i]=="dedos" && textolista[i+1]=="cruzados"){
+      document.getElementById("feito").innerHTML += "🤞"+" ";
+      textolista.splice(i+1,i+1);
+    }
+    else if(textolista[i]=="mão" && textolista[i+1]=="v"){
+      document.getElementById("feito").innerHTML += "✌️"+" ";
+      textolista.splice(i+1,i+1);
+    }
+    else if(textolista[i]=="saudação" && textolista[i+1]=="rock"){
+      document.getElementById("feito").innerHTML += "🤘"+" ";
+      textolista.splice(i+1,i+1);
+    }
+    else if(textolista[i]=="mão" && textolista[i+1]=="ok"){
+      document.getElementById("feito").innerHTML += "👌"+" ";
+      textolista.splice(i+1,i+1);
+    }
+    else if(textolista[i]=="apontar" ){
+      document.getElementById("feito").innerHTML += "👈"+" ";
+    }
+
+    else if(textolista[i]=="mão" && textolista[i+1]=="levantada"){
+      document.getElementById("feito").innerHTML += "✋"+" ";
+      textolista.splice(i+1,i+1);
+    }
+    else if(textolista[i]=="mão" && textolista[i+1]=="aberta"){
+      document.getElementById("feito").innerHTML += "🖐"+" ";
+      textolista.splice(i+1,i+1);
+    }
+
+    else if(textolista[i]=="saudação" && textolista[i+1]=="vulcana"){
+      document.getElementById("feito").innerHTML += "🖖"+" ";
+      textolista.splice(i+1,i+1);
+    }
+    else if(textolista[i]=="me" && textolista[i+1]=="liga"){
+      document.getElementById("feito").innerHTML += "🤙"+" ";
+      textolista.splice(i+1,i+1);
+    }
+    else if(textolista[i]=="biceps" ){
+      document.getElementById("feito").innerHTML += "💪"+" ";
+    }
+    else if(textolista[i]=="pé" ){
+      document.getElementById("feito").innerHTML += "🦶"+" ";
+    }
+    else if(textolista[i]=="dedo" && textolista[i+1]== "do"&& textolista[i+2]=="meio"){
+      document.getElementById("feito").innerHTML += "🖕"+" ";
+      textolista.splice(i+1,i+2);
+    }
+    else if(textolista[i]=="rezar" ){
+      document.getElementById("feito").innerHTML += "🙏"+" ";
+    }
+    else if(textolista[i]=="anel" ){
+      document.getElementById("feito").innerHTML += "💍"+" ";
+    }
+    else if(textolista[i]=="batom" ){
+      document.getElementById("feito").innerHTML += "💄"+" ";
+    }
+    else if(textolista[i]=="labios" ){
+      document.getElementById("feito").innerHTML += "💋"+" ";
+    }
+    else if(textolista[i]=="lingua" ){
+      document.getElementById("feito").innerHTML += "👅"+" ";
+    }
+    else if(textolista[i]=="orelha" ){
+      document.getElementById("feito").innerHTML += "👂"+" ";
+    }
+    else if(textolista[i]=="nariz" ){
+      document.getElementById("feito").innerHTML += "👃"+" ";
+    }
+    else if(textolista[i]=="pés" ){
+      document.getElementById("feito").innerHTML += "👣"+" ";
+    }
+    else if(textolista[i]=="olho" ){
+      document.getElementById("feito").innerHTML += "👁"+" ";
+    }
+    else if(textolista[i]=="olhos" ){
+      document.getElementById("feito").innerHTML += "👀"+" ";
+    }
+    else if(textolista[i]=="cerebro" ){
+      document.getElementById("feito").innerHTML += "🧠"+" ";
+    }
+    else if(textolista[i]=="osso" ){
+      document.getElementById("feito").innerHTML += "🦴"+" ";
+    }
+    else if(textolista[i]=="dente" ){
+      document.getElementById("feito").innerHTML += "🦷"+" ";
+    }
+
+
     else{
       document.getElementById("feito").innerHTML += textolista[i] + " ";
       document.getElementById("errorbox-3").style.display = "block";
