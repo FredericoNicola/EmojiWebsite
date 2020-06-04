@@ -12,8 +12,9 @@ body {
   width: 10px;
   height: 10px;
 }
-h1 {
+.titulo {
   color: white;
+  text-align: center;
 }
 label {
   color: white;
@@ -25,6 +26,7 @@ p {
 .navbar {
   overflow: hidden;
   background-color: gray;
+  position: sticky;
 }
 #logo {
   color: yellow;
@@ -118,6 +120,7 @@ p {
   cursor: pointer;
   background-color: darkgray;
   transition: ease-in-out;
+  font-weight: bold;
 }
 
 .button:hover {
@@ -284,7 +287,6 @@ p {
 
 footer {
   background: darkgray;
-  padding: 20px 0;
   width: 100%;
   bottom: 0;
   position: fixed;
@@ -309,7 +311,7 @@ footer {
   }
   .right-col {
     width: 100%;
-    margin-bottom: 60px;
+    text-align: center;
   }
 
   .left-col {
@@ -433,4 +435,8 @@ h3 {
   .text {
     font-size: 11px;
   }
+}
+
+#vamos {
+  font-size: large;
 }
