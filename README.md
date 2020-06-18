@@ -8,9 +8,9 @@ Para começar a usar o nosso site precisa de:
 - Se seguir os passos atrás ja deve estar a navegar na nossa pagina.
 
 Sobre o codigo:
-- index.html é a home page
-- sobrenos.html to do
-- home.html to do
+- index.html é a nossa home page
+- sobrenos.html é uma pequena pagina a falar sobre os criadores do site
+- traduzir.html é a nossa pagina principal onde se poderá realizar as traduções 
 Sobre as pastas:
 - web pasta onde se encontram todos os ficheiros html da nossa pagina
 - js onde se encontram todos os ficheiros de javaScript
